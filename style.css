@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    background-color: rgb(20, 46, 46);
+}
+.container{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    background: linear-gradient(blue, green);
+}
+.srh{
+    display: flex;
+    margin-top: 11px;
+}
+input{
+    width: 300px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: white;
+}
+::placeholder{
+    color: black ;
+}
+button{
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-top: 2px;
+    margin-inline: 7px;
+}
+#city{
+    font-size: 33px;
+}
+#img{
+    width: 210px;
+}
+#temp{
+    margin-top: -10px;
+    font-size: 32px;
+}
+#type{
+    margin-top: -10px;
+    font-size: 32px;
+}
+#details{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    height: 40px;
+}
+#humidity, #wind{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -6px;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 18px;
+    margin-top: -10px;
+}
